@@ -4,11 +4,11 @@ from twilio.rest import Client
 
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
-API_KEY = "UGZ658KT4SIVEPML"
-NEWS_API = "7b48a4a461614873a2350e323c57f6f4"
-ACCOUNT_SID = "ACad1ab581736aba6dbdac4199bd90b67d"
-AUTH_TOKEN = "5d6d4e783ba001e807b0c20e71d58ab4"
-MY_NUM = "+16362751358"
+API_KEY = "***************"
+NEWS_API = "***************"
+ACCOUNT_SID = "***************"
+AUTH_TOKEN = "***************"
+MY_NUM = "***************"
 
 
 s_price_parameters = {
@@ -60,6 +60,6 @@ for article in formatted_article:
                     .create(
                          body=article,
                          from_=MY_NUM,
-                         to='+917568777573'
+                         to="***************"
                      )
     print(message.status)
